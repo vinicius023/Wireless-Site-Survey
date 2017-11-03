@@ -84,7 +84,7 @@ fi
 			# caso nao tenha passado filtro algum, precisa existir ["."] pra não deixar de imprimir
 			dados[cell_id]["."] = "."
 			
-			if( dados[cell_id][tipoFiltro] ~ valorFiltro ) 
+			if( dados[cell_id][tipoFiltro] == valorFiltro ) 
 				flag=1; 
 			
 			if(flag) {
